@@ -1,9 +1,7 @@
-/* Varaibles - config */
-/* SCSS*/
 
 .modal-box1:hover {
 	background: linear-gradient(135deg, #6394ff 0%, #0a193b 100%);
-	color: white;
+	color: #000;
 }
 
 .content {
@@ -996,7 +994,8 @@ body::-webkit-scrollbar {
 	.foodtruck,
 	.express,
 	.biryani,
-	.cuisine {
+	.cuisine,
+	.barandgrill {
 		display: block;
 		margin-bottom: 84px;
 	}
