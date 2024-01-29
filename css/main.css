@@ -1,8 +1,10 @@
 @media (min-width: 320px) and (max-width: 480px) {
 .single-facilities-box {
     position: relative;
-    margin-left: 0px!important;
+    margin-left: 50px;
+    margin-top: 30px;
 }
+
 .single-facilities-box.two {
     margin: 0;
     margin-right: 0px!important;
