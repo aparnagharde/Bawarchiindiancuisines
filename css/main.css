@@ -3,6 +3,10 @@
     position: relative;
     margin-left: 0px!important;
 }
+.single-facilities-box.two {
+    margin: 0;
+    margin-right: 0px!important;
+}
 }
 .facilities-area {
 	padding: 39px 0 87px;
