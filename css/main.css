@@ -8,8 +8,12 @@
 .single-facilities-box.two {
     margin: 0;
     margin-right: 0px!important;
-}	
 }
+.facilities-number h1 {
+    display: none;
+}
+}
+
 .facilities-area {
 	padding: 39px 0 87px;
 }
