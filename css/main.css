@@ -1,16 +1,52 @@
-@media (min-width: 320px) and (max-width: 480px) {
-.single-facilities-box {
-    position: relative;
-    margin-left: 50px!important;
-    margin-top: 30px!important;
+
+
+.sticky-navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 8px 0;
+	transition: all 500ms ease;
 }
-.single-facilities-box.two {
-    margin: 0;
-    margin-right: 0px!important;
+
+.sticky-navbar.scrolling {
+	background:rgb(0 0 0 / 50%);
+
 }
-.facilities-number h1 {
-    display: none;
+
+.sticky-navbar.scrolling ul li a {
+	color: #eee;
 }
+
+.sticky-navbar nav {
+	max-width: 1000px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 32px;
+	margin: 0 auto;
+}
+
+.sticky-navbar .logo {
+	font-weight: 800;
+	color: red;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+.sticky-navbar ul {
+	display: flex;
+	list-style: none;
+}
+
+.sticky-navbar ul li {
+	margin: 0 24px;
+}
+
+.sticky-navbar ul li a {
+	text-decoration: none;
+	color: #222;
+	font-weight: 800;
 }
 
 .facilities-area {
@@ -1789,7 +1825,7 @@ hr {
 }
 
 .navbar {
-	background-color: #0000008f;
+	background-color: transparent;
 	padding: 10px 50px;
 }
 
@@ -1821,7 +1857,7 @@ hr {
 }
 
 .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
-	margin-right: 32px;
+	margin-right: 0px;
 }
 
 @media (max-width: 767.98px) {
