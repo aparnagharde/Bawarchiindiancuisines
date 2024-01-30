@@ -128,19 +128,13 @@ border-radius: 9px;
 }
 
 .facilities-content p {
-	margin-top: 46px;
+	margin-top: 10px;
 	position: relative;
-	margin-bottom: 40px;
+	margin-bottom: 0px;
 }
 
-.facilities-content p:before {
-	position: absolute;
-	content: "";
-	width: 1px;
-	height: 30px;
-	left: 0;
-	top: -35px;
-	background: #61616159;
+.facilities-content img{
+	width: 18%;
 }
 
 a.facilities-button i {
