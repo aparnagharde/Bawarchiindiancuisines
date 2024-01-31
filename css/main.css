@@ -2951,3 +2951,6 @@ dl, ol, ul {
 	.footer-sec a, p {
 	color: #000;
 	}
+	.a ul{
+    list-style: disc;
+	}
