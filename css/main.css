@@ -2681,3 +2681,273 @@ dl, ol, ul {
 }
 
 /* why choose us */
+.cities .card {
+  position: relative;
+  width: 100%;
+  min-height: 170px;
+  background: #b0dddf;
+  color: #fff;
+  margin: 10px;
+  border: 0;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.cities .card .imgBx {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+}
+
+.cities .card .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: initial;
+  border-radius: 20px 60px 0px 20px;
+}
+
+.cities .card .details {
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cities .card .details .content {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.cities .card .details .content h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  color: #fff;
+  line-height: 0.85em;
+  font-weight: 600;
+}
+
+.cities .card .details .content h2 span {
+  font-size: 14px;
+  color: #fff;
+}
+
+.cities .card .details .content ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.cities .card .details .content ul li {
+  list-style: none;
+  margin-left: 2px;
+}
+
+.cities .card .details .content ul li a {
+  color: #fff;
+  border: none;
+}
+
+.cities .card .details .content ul li:nth-child(1) a {
+  background: #3b5995;
+}
+
+.cities .card .details .content ul li:nth-child(2) a {
+  background: #55acee;
+}
+
+.cities .card .details .content ul li:nth-child(3) a {
+  background: #b31217;
+}
+
+.cities .card .details .content ul li:nth-child(4) a {
+  background: #0077b5;
+}
+
+.cities .card .details .content a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 15px;
+  margin-top: 10px;
+  border: 1px solid #fff;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.cities .card .details .content a:hover {
+  background: #ffff;
+  color: #fba417;
+}
+
+
+@media (max-width: 991px) {
+  .cities .card {
+    width: calc(70% - 20px);
+    margin: 10px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .cities .card {
+    width: calc(70% - 20px);
+    margin: 10px auto;
+  }
+
+  .cities .card .imgBx {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border-radius: 20px !important;
+  }
+
+  .cities .card .details {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+}
+
+@media (max-width: 480px) {
+  .cities .card {
+    width: calc(100% - 0px);
+    margin: 10px auto;
+    border-radius: 20px;
+  }
+
+  .cities .card .imgBx img {
+    border-radius: 20px !important;
+  }
+  
+}
+
+.ContactUs {
+	display: flex;
+	background: #c3cac3;
+	margin-top: 50px;
+	box-shadow: -8.53px 9.81px 31px 0px rgba(48,49,49,0.38);
+	}
+
+	.addrs {
+	width: 33.333%;
+	padding: 0px 0px 50px 0;
+	box-sizing: border-box;
+	position: relative;
+	margin-bottom: 0;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	text-align: center;
+	}
+
+	.addrs:before {
+	content: '';
+	left: 0px;
+	width: 1px;
+	height: 102px;
+	position: absolute;
+	display: block;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: #606161;
+	}
+
+	.icon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 93px;
+    text-align: center;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    margin-bottom: -2.1em;
+    position: relative;
+    background: #c3cac3;
+    box-shadow: -8.53px 9.81px 31px 0px rgba(48,49,49,0.38);
+}
+
+	.icon .fa {
+	font-size: 40px;
+	color: #606161;
+	margin-top: 30%;
+	}
+
+	.icon a{
+	color: #fff;
+	}
+
+
+	.addrs h4 {
+	color: #424443;
+	}
+
+	.addrs p {
+	color: #000;
+	}
+
+	.addrs a{
+	color: #000;
+	}
+
+
+	.section_8 img {
+	width: 15%;
+	display: flex;
+	margin: auto;
+	}
+
+	.section_8 h1{
+	color: #fff;
+	}
+
+
+	.social-accounts {
+	text-align: center;
+	display: flex;
+	width: 22%;
+	margin: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	}
+
+	.socials_item {
+	display: contents;
+	font-size: 14px;
+	}
+
+	.socials_item a {
+	color: #000;
+	background: #fbf4e4;
+	padding: 10px 0;
+	border-radius: 2px;
+	width: 30px;
+	height: 30px;
+	margin: auto;
+	box-shadow: -8.53px 9.81px 31px 0px rgba(48,49,49,0.38);
+
+	}
+
+	.section_8{
+	background: #637263;
+
+	}
+
+
+
+	.footer-sec {
+	padding: 24px;
+	background: #c3cac3;
+	}
+
+
+	.footer-sec a, p {
+	color: #000;
+	}
