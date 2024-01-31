@@ -1083,8 +1083,9 @@ a {
 
 a {
 	background-color: transparent;
-	color: #30c238;
+	color: #5f9ea0;
 	text-decoration: none;
+	font-weight: bold;
 }
 
 a:focus,
@@ -2870,7 +2871,7 @@ dl, ol, ul {
     transform: translateY(-50%);
     margin-bottom: -2.1em;
     position: relative;
-    background: #fff;
+    background: #c3cac3;
     box-shadow: -8.53px 9.81px 31px 0px rgba(48,49,49,0.38);
 }
 
@@ -2951,6 +2952,7 @@ dl, ol, ul {
 	.footer-sec a, p {
 	color: #000;
 	}
+
 	.a ul{
     list-style: disc;
 	}
