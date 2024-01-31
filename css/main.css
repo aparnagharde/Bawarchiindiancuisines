@@ -435,46 +435,6 @@ a.facilities-button i:hover{
 }
 
 
-/* MEDIA QUERIES */
-@media all and (max-width: 767px) {
-	.org-chart .board {
-		margin: 0px;
-		width: 100%;
-	}
-
-	.org-chart .departments:before {
-		border: none;
-	}
-
-	.org-chart .new-location {
-		float: none;
-		width: 100%;
-		margin-left: 0;
-		background: #f5eec9;
-		margin-bottom: 40px;
-	}
-
-	.org-chart .new-location:before {
-		content: "";
-		display: block;
-		position: absolute;
-		width: 15px;
-		height: 60px;
-		border-left: 2px solid #fff;
-		z-index: 1;
-		top: -45px;
-		left: 0%;
-		margin-left: -2px;
-	}
-
-	.org-chart .new-location:after {
-		display: none;
-	}
-
-	.org-chart .new-location:first-child:before {
-		display: none;
-	}
-} */
 
 
 .responsive-content {
