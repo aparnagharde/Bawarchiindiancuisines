@@ -2862,17 +2862,18 @@ dl, ol, ul {
 
 	.icon {
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     margin: 0 auto;
-    line-height: 93px;
+    line-height: 72px;
     text-align: center;
     border-radius: 50%;
     transform: translateY(-50%);
     margin-bottom: -2.1em;
     position: relative;
-    background: #c3cac3;
+    background: #fff;
     box-shadow: -8.53px 9.81px 31px 0px rgba(48,49,49,0.38);
+    margin-bottom: -2px;
 }
 
 	.icon .fa {
