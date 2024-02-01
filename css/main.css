@@ -1061,7 +1061,11 @@ h5,
 h6 {
 	color:#8e6d45;
 }
-
+.h1, h1 {
+    font-size: 17px;
+    letter-spacing: 0.6em;
+    /* color: #8e6d45; */
+}
 b {
 	font-weight: 700;
 }
