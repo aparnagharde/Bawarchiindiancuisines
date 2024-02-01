@@ -890,7 +890,7 @@ body {
 	scrollbar-width: none;
 	/* for Firefox */
 	overflow-y: scroll;
-	font-family: 'Futura LT', sans-serif!important;
+font-family: "Futura-Light"!important;
 }
 
 body::-webkit-scrollbar {
