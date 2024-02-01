@@ -1,7 +1,12 @@
+
+
 h1,h2,h3,h4,h5,h6,P,a,span{
 	font-family: 'Futura LT', sans-serif!important;
+	/* font-family:FuturaBT-Medium!important; */
 
 }
+
+
 
 .info-section{
 	margin-top: 100px;
@@ -25,6 +30,7 @@ footer h3 {
 font-weight: bold;
   margin-bottom: 15px;
   color: #fff;
+	font-family: 'Futura LT', sans-serif!important;
 }
 
 footer ul {
@@ -886,6 +892,7 @@ body {
 	scrollbar-width: none;
 	/* for Firefox */
 	overflow-y: scroll;
+	font-family: 'Futura LT', sans-serif!important;
 }
 
 body::-webkit-scrollbar {
