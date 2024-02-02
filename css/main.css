@@ -531,11 +531,12 @@ a.facilities-button i:hover{
 	background-color: #413c3c;
 	border: 1px solid #fff;
 	padding: 13px;
-	max-width: 1070px;
+	max-width: 849px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 100px;
-	margin-bottom: 100px;
+	margin-bottom: 101px;
+	padding-bottom: 12px;
 }
 img {
 	border-style: none;
@@ -543,7 +544,8 @@ img {
 	border-radius: 9px;
 }
 .winning-behaviors.component-callout {
-	margin-bottom: calc(5.1132686084vw + 29.8252427184px);
+	padding: 54px;
+	color: #fff;
 }
 
 .winning-behaviors .line-title {
@@ -613,13 +615,16 @@ img {
 }
 
 .rest-img-align img {
-	max-width: 542px;
+
+	box-shadow: 0px 0px 10px 0px rgb(0 0 0);
 }
 
 .rest-member-para {
 	text-align: left;
 }
-
+.rest-member-para p {
+color: #fff;
+}
 .rest-box-cont {
 	padding: 35px 32px 35px 32px;
 	border-radius: 12px;
@@ -855,7 +860,12 @@ img {
 
 	width: 18%;
 }
+.content-block{
+	background: #161618;
+	padding: 65px;
+	border-radius: 9px;
 
+}
 .map {
 	background: #fff;
 	padding: 10px;
@@ -931,9 +941,10 @@ body::-webkit-scrollbar {
 	}
 
 	.info-content {
-		background: #fff;
+		background:#6b6b6b;
 		padding: 40px 39px !important;
 		position: relative;
+		color: #fff;
 	}
 
 	.ceo {
@@ -967,11 +978,16 @@ body::-webkit-scrollbar {
 }
 
 .info-content {
-	background: #fff;
+	background:#6b6b6b ;
 	padding: 63px 64px;
 	position: relative;
+	color: #fff;
 }
-
+.heading  {
+	font-weight: bold;
+	color: #fff;
+	font-size: 29px;
+	margin-bottom: 20px;}
 .cuisine-bg {
 	background-image: url(https://www.pringleapi.com/Documents/4baf752b-ce76-40d9-8e27-074c9c75cac0/bawarchi-indian-cuisine.webp);
 	background-attachment: fixed;
@@ -2158,11 +2174,11 @@ hr {
 }
 
 .join-us {
-	background: #333;
+	background: #6b6b6b;
 	padding: 70px 40px 100px 40px;
 
 }
-.services-section .single-service {
+.single-service {
 	background-color: #323232;
 	border-bottom: 2px solid transparent;
 	margin-bottom: 30px;
@@ -2185,7 +2201,7 @@ hr {
 }
 
 .services-section .single-service .service-title {
-	font-size: 23px;
+	font-size: 22px;
 	margin-bottom: 0px;
 	padding: 30px;
 	background:rgb(39 36 36);
@@ -2202,6 +2218,7 @@ hr {
 	padding: 15px 20px;
 	height: 295px;
 	border-radius: 0 0 9px 9px;
+	color: #fff;
 }
 
 .services .img {
@@ -2356,12 +2373,15 @@ height:100%;
 	letter-spacing: 0.5px;
 	font-weight: 600;
 }
-
-#myCarousel .carousel-item a{background:#7fcac3; font-size:14px; color:#FFF; padding:13px 32px; display:inline-block; }
+.order-2 img{
+	box-shadow: none!important;
+	width: 25%!important;
+}
+#myCarousel .carousel-item a{background:#6b6b6b; font-size:14px; color:#FFF; padding:13px 32px; display:inline-block; }
 #myCarousel .carousel-item a:hover{background:#394fa2; text-decoration:none;  }
 
 #myCarousel .carousel-item h4{-webkit-animation-name:fadeInLeft; animation-name:fadeInLeft;} 
-#myCarousel .carousel-item p{-webkit-animation-name:slideInRight; animation-name:slideInRight;} 
+#myCarousel .carousel-item p{-webkit-animation-name:slideInRight; animation-name:slideInRight; color: #fff;} 
 #myCarousel .carousel-item a{-webkit-animation-name:fadeInUp; animation-name:fadeInUp;}
 #myCarousel .carousel-item .mask img{-webkit-animation-name:slideInRight; animation-name:slideInRight; display:block;}
 #myCarousel h4, #myCarousel p, #myCarousel a, #myCarousel .carousel-item .mask img{-webkit-animation-duration: 1s;
@@ -2375,11 +2395,10 @@ height:100%;
 #myCarousel {
 	position: relative;
 	z-index: 1;
-	background: #fff;
 	padding: 45px;
 	margin-bottom: 100px;
 }
-.mask img{box-shadow: 0px 0px 10px 0px rgb(0 0 0);
+.mask img{box-shadow: 0px 0px 10px 0px rgb(0 0 0); width: 100%;
     border-radius: 9px;}
 
 .carousel-control-next, .carousel-control-prev {
@@ -2390,7 +2409,7 @@ height:100%;
 	bottom: auto;
 	border-radius: 50%;
 	transform: translateY(-50%);
-	background-color: #009688;
+	background-color:#000;
 }
 
 
@@ -2662,7 +2681,7 @@ dl, ol, ul {
   position: relative;
   width: 100%;
   min-height: 170px;
-  background: #b0dddf;
+  background:#6b6b6b;
   color: #fff;
   margin: 10px;
   border: 0;
@@ -2703,12 +2722,12 @@ dl, ol, ul {
 }
 
 .cities .card .details .content h2 {
-  margin: 0;
-  padding: 0;
-  font-size: 24px;
-  color: #fff;
-  line-height: 0.85em;
-  font-weight: 600;
+	margin: 0;
+	padding: 0;
+	font-size: 17px;
+	color: #fff;
+	line-height: 0.85em;
+	font-weight: 600;
 }
 
 .cities .card .details .content h2 span {
@@ -2749,18 +2768,19 @@ dl, ol, ul {
 }
 
 .cities .card .details .content a {
-  display: inline-block;
-  text-decoration: none;
-  padding: 5px 15px;
-  margin-top: 10px;
-  border: 1px solid #fff;
-  margin-right: 10px;
-  color: #fff;
+	display: inline-block;
+	text-decoration: none;
+	padding: 9px 21px;
+	margin-top: 10px;
+	margin-right: 10px;
+	color: #fff;
+	border-radius: 9px;
+	background: #272424;
 }
 
 .cities .card .details .content a:hover {
-  background: #ffff;
-  color: #fba417;
+	background: #161618;
+	color: rgb(255 255 255);
 }
 
 
@@ -3054,17 +3074,23 @@ dl, ol, ul {
 }
 }
 
+.our-values p{
+color: #fff;
+}
 
-.about,.why-choose-us,.who-we-are{
+.about,.why-choose-us,.who-we-are,.mid{
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
-
+.bg-grey{
+background: #6b6b6b;
+}
 
 /* about page */
 .white-box{
 	margin-top: 72px;
-	background: #fff;
+	background: rgb(39 36 36);
+	color: #fff;
 	padding: 65px;
 	text-align: center;
 
@@ -3169,3 +3195,12 @@ dl, ol, ul {
 	}
 	}
 	
+
+
+	/* who we are */
+	.who-we-are{
+    background: #6b6b6b;
+    padding: 73px 56px;
+		color: #fff;
+
+	}
