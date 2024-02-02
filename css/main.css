@@ -70,7 +70,6 @@ footer .footer_wp i {
   top: 0;
   color: rgba(255, 255, 255, 0.2);
   font-size: 24px;
-  font-size: 1.5rem;
 }
 
 @media (max-width: 767px) {
@@ -149,7 +148,7 @@ footer .copy {
 }
 .yoe > * {
 	color: #fff;
-	font-weight: bold;
+
 }
 #display {
 	font-size: 30px;
@@ -158,7 +157,6 @@ footer .copy {
 
 .count{
 	font-size: 40px;
-	font-weight: bold;
 	color: #000;
 }
 
@@ -723,7 +721,6 @@ img {
 	letter-spacing: 10px;
 	font-size: 20px;
 	color: #222;
-	font-weight: 600;
 	line-height: 40px;
 	text-transform: uppercase;
 	margin-bottom: 50px;
@@ -1043,7 +1040,7 @@ body::-webkit-scrollbar {
 
 body {
 	background-color:#f7f7f7;
-	color: #9f9f9f;
+	color: #000;
 	/* font-family: 'Futura LT', sans-serif; */
 	font-size: 18px;
 	font-weight: 400;
