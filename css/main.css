@@ -2842,7 +2842,7 @@ dl, ol, ul {
 .cities .card {
   position: relative;
   width: 100%;
-  min-height: 170px;
+  min-height: 130px;
   background:#3c4043;
   color: #fff;
   margin: 10px;
