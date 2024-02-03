@@ -1,4 +1,147 @@
+/* aparna css */
+.pb-50{
+padding: 30px;
+}
+.pb-40{
+	padding: 42px;
+}
+.padding{
+	padding-bottom: 50px;
+}
+.bg-dark{
+background: #333;
+}
 
+/* welcome */
+.welcome-content{
+background: #fff;
+padding: 35px 45px;
+}
+.welcome-content h2{
+	color: #000;
+	
+	}
+/* why-choose-us */
+.popover__wrapper {
+	position: relative;
+	display: inline-block;
+	background-color:#6b6b6b;
+	box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 13%);
+	/* background: url(https://kakedihatti.com/img/kdh/collage.png); */
+	/* background-size: cover;
+	background-blend-mode: color; */
+	/* background-color: #fffffff2; */
+	/* background-position: center; */
+	padding: 30px;
+	height: 207px;
+	margin-top: 15px;
+	text-align: center;
+	width: 100%;
+	border-radius: 9px;
+}
+.popover__title {
+	color: #fff!important;
+}
+.popover__wrapper h3{
+	color: #fff;
+	font-size: 20px;
+}
+
+.popover__title img{
+	width: 100px;
+	height: 100px;
+}
+.popover__content {
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	left: -100px;
+	transform: translate(0, 10px);
+	background-color:rgb(50 50 50);
+	padding: 1.5rem;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+	width: 500px;
+	margin-top: -50px;
+	border-radius: 9px;
+}
+
+.popover__wrapper:hover .popover__content {
+  z-index: 10;
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, -20px);
+  transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}
+.popover__message {
+  text-align: center;
+	color:#9f9f9f!important;
+}
+
+/* here it from the best */
+.we-are-best {
+	background: #333;
+	color: #fff;
+	padding: 70px!important;
+}
+/* who we are */
+
+.who-we-are {
+	background: #333;
+	/* padding: 73px 56px; */
+	color: #fff;
+}
+.yoe-two {
+	text-align: center;
+	padding: 15px;
+	position: absolute;
+	right: 263px;
+	background: white;
+	top: 123px;
+	max-width: 150px;
+	border: 8px solid grey;
+	color: #fff;
+}
+
+.info-content {
+	/* padding: 63px 47px!important; */
+	color: #fff;
+}
+
+/* about us page */
+
+.since-heading-two {
+	position: absolute;
+	left: 13px;
+	transform: rotatez(90);
+	transform: rotate(-90deg);
+	top: 35%;
+	transform: translateX(-50%) rotate(-90deg);
+	font-size: 55px;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 2px #9ba7a7;
+	animation: move 5s ease-in-out alternate infinite;
+}
+
+.white-box{
+	background: rgb(39 36 36);
+	color: #fff;
+	padding: 65px;
+
+}
+
+
+/* footer */
+
+.footer{
+	margin-top: 84px;
+}
+
+
+
+
+
+
+/* aparna css */
 
 h1,h2,h3,h4,h5,h6,P,a,span,body{
 	/* font-family: 'Futura LT', sans-serif!important; */
@@ -864,12 +1007,12 @@ color: #fff;
 
 	width: 18%;
 }
-.content-block{
+/* .content-block{
 	background: #161618;
 	padding: 65px;
 	border-radius: 9px;
 
-}
+} */
 .map {
 	background: #fff;
 	padding: 10px;
@@ -944,12 +1087,12 @@ body::-webkit-scrollbar {
 		margin-bottom: 84px;
 	}
 
-	.info-content {
+	/* .info-content {
 		background:#6b6b6b;
 		padding: 40px 39px !important;
 		position: relative;
 		color: #fff;
-	}
+	} */
 
 	.ceo {
 
@@ -981,12 +1124,7 @@ body::-webkit-scrollbar {
 
 }
 
-.info-content {
-	background:#6b6b6b ;
-	padding: 63px 64px;
-	position: relative;
-	color: #fff;
-}
+
 .heading  {
 	font-weight: bold;
 	color: #fff;
@@ -1993,7 +2131,7 @@ hr {
 
 }
 
-.info-section .info-content .content-subtitle {
+/* .info-section .info-content .content-subtitle {
 	font-size: 24px;
 	margin-bottom: 15px;
 }
@@ -2175,7 +2313,7 @@ hr {
 	.info-section .info-content .content-download {
 		margin-bottom: 27px;
 	}
-}
+} */
 
 .join-us {
 	background: #6b6b6b;
@@ -2413,7 +2551,7 @@ height:100%;
 	bottom: auto;
 	border-radius: 50%;
 	transform: translateY(-50%);
-	background-color:#000;
+
 }
 
 
@@ -2949,7 +3087,11 @@ dl, ol, ul {
 	}
 
 
-	
+
+.our-values {
+    margin-top: 15px!important;
+    margin-bottom: 15px!important;
+}
 
 	.a ul{
     list-style: disc;
@@ -3083,87 +3225,18 @@ dl, ol, ul {
 color: #fff;
 }
 
-.about,.why-choose-us,.who-we-are,.mid{
+/* .about,.why-choose-us,.who-we-are,.mid{
 	margin-top: 100px;
 	margin-bottom: 100px;
-}
+} */
 .bg-grey{
 background: #6b6b6b;
 }
 
-/* about page */
-.white-box{
-	margin-top: 72px;
-	background: rgb(39 36 36);
-	color: #fff;
-	padding: 65px;
-	text-align: center;
 
-}
 
-.popover__title {
-  font-size: 34px;
-  line-height: 36px;
-  text-decoration: none;
-  color:#000;
-  text-align: center;
-  padding: 15px 0;
-}
 
-.popover__wrapper {
-	position: relative;
-	margin-top: 1.5rem;
-	display: inline-block;
-	background-color: #fff;
-	box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 13%);
-	background: url(https://kakedihatti.com/img/kdh/collage.png);
-	background-size: cover;
-	background-blend-mode: color;
-	background-color: #fffffff2;
-	background-position: center;
-	padding: 30px;
-	height: 207px;
-	margin-top: 15px;
-	text-align: center;
-	width: 100%;
-	border-radius: 9px;
-}
-.popover__content {
-	opacity: 0;
-	visibility: hidden;
-	position: absolute;
-	left: -100px;
-	transform: translate(0, 10px);
-	background-color:rgb(50 50 50);
-	padding: 1.5rem;
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
-	width: 500px;
-	margin-top: -50px;
-	border-radius: 9px;
-}
-/* .popover__content:before {
-  position: absolute;
-  z-index: -1;
-  content: "";
-  right: calc(50% - 10px);
-  top: -8px;
-  border-style: solid;
-  border-width: 0 10px 10px 10px;
-  border-color: transparent transparent #bfbfbf transparent;
-  transition-duration: 0.3s;
-  transition-property: transform;
-} */
-.popover__wrapper:hover .popover__content {
-  z-index: 10;
-  opacity: 1;
-  visibility: visible;
-  transform: translate(0, -20px);
-  transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
-}
-.popover__message {
-  text-align: center;
-	color:#9f9f9f!important;
-}
+
 
 .h2,h2 {
 	font-size: 18px;/
@@ -3175,10 +3248,7 @@ background: #6b6b6b;
 	border-radius: 9px;
 
 }
-.popover__wrapper h3{
 
-	font-size: 20px;
-}
 .section-heading h2{
 	font-size: 33px!important;
 	color: #000;
@@ -3202,10 +3272,4 @@ background: #6b6b6b;
 	
 
 
-	/* who we are */
-	.who-we-are{
-    background: #6b6b6b;
-    padding: 73px 56px;
-		color: #fff;
-
-	}
+	
