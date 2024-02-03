@@ -302,9 +302,9 @@ footer .copy {
 	background: black;
 	top: 52px;
 	max-width: 150px;
-	border-left: 20px solid white;
-	border-bottom: 20px solid white;
-	color: #fff;
+	border-left: 7px solid white;
+	border-bottom: 7px solid white;
+	color: rgb(255, 255, 255);
 }
 .yoe > * {
 	color: #fff;
