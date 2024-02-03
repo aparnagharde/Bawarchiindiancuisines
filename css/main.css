@@ -1813,9 +1813,9 @@ dl, ol, ul {
 .cities .card .details .content a {
 	display: inline-block;
 	text-decoration: none;
-	padding: 9px 21px;
-	margin-top: 10px;
-	margin-right: 10px;
+	padding: 9px 16px;
+	margin-top: -48px;
+	margin-right: 0px;
 	color: #fff;
 	border-radius: 9px;
 	background: #272424;
