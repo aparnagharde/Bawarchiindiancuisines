@@ -41,11 +41,6 @@ padding: 35px 45px;
 	display: inline-block;
 	background-color:#6b6b6b;
 	box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 13%);
-	/* background: url(https://kakedihatti.com/img/kdh/collage.png); */
-	/* background-size: cover;
-	background-blend-mode: color; */
-	/* background-color: #fffffff2; */
-	/* background-position: center; */
 	padding: 30px;
 	height: 207px;
 	margin-top: 15px;
@@ -117,7 +112,6 @@ padding: 35px 45px;
 }
 
 .info-content {
-	/* padding: 63px 47px!important; */
 	color: #fff;
 }
 
@@ -150,8 +144,21 @@ padding: 35px 45px;
 	margin-top: 84px;
 }
 
-
-
+/* concept page */
+@media (min-width: 320px) and (max-width: 480px) {
+	#myCarousel .carousel-item .mask {
+			position: relative!important;
+			top: 0;
+			left: 0;
+			/* height: 100%; */
+			/* width: 100%; */
+			/* background-attachment: fixed; */
+	}
+	.order-2 img{
+		margin-top: 20px;
+		text-align: center;
+	}
+	}
 
 
 
