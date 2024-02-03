@@ -1,23 +1,5 @@
 /* aparna css */
-#target {
-	height: 400px;
-	width: 600px;
-	padding: 20px;
-	margin: 10px auto;
-	border: 1px solid gray;
-	border-radius: 4px;
-	position: relative;
-}
-.modal {
-	position: absolute;
-}
-.modal-left {
-	margin: 30px;
-}
-.modal-right {
-	margin: 30px;
-	float: right;
-}
+
 @media (min-width: 320px) and (max-width: 480px) {
 	#home {
 			display: none;
