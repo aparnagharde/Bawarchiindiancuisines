@@ -1860,6 +1860,16 @@ dl, ol, ul {
 	line-height: 30px;
 	color: #fff;
 }
+@media (min-width: 320px) and (max-width: 480px) {
+	#main {
+			padding: 0!important;
+	}
+	.contact-info {
+    padding: 21px;
+}
+	}
+
+
 /* why choose us */
 .cities .card {
 	position: relative;
