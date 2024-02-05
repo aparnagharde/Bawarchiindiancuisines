@@ -1,5 +1,101 @@
 /* aparna css */
 
+#target{
+	text-align: center;
+	background-color: rgb(128 128 128);
+	padding: 1.5rem;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+	margin-top: 10px;
+	border-radius: 9px;
+	height: 207px;
+
+}
+
+.modal-dialog {
+	margin: 1.75rem auto;
+	max-width: 793px;
+	margin-top: 150px;
+}
+
+
+.btn-lg{
+	font-weight: bold;
+	color: #fff;
+}
+
+
+#myModal {
+  border-radius: 0px;
+}
+
+#myModal .modal-body {
+  min-height: 50vh;
+}
+.modal-body h3{
+	color: #fff;
+}
+.modal-content {
+	-ms-flex-direction: column;
+	background-clip: padding-box;
+	background-color: #323232;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 0.3rem;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	outline: 0;
+	pointer-events: auto;
+	position: relative;
+	color: #fff;
+	width: 100%;
+}
+
+
+
+/* Modal */
+  
+  .close-right{
+    
+    float:right;
+    right:-10px;
+    color:#FFF;
+    position:absolute;
+    border:1px #FFF solid;
+    width:30px;
+    height:30px;
+    text-align:center;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    top:-10px;
+    background-color: #000;
+  }
+  
+  .close-right .close{
+    color:#FFF;
+    opacity:1;
+    padding:0;
+    margin:0;
+  }
+  
+  .modal-header{
+ 
+    position:relative;
+    background-color:#776F70;
+    color:#FFF;
+    letter-spacing:1px;
+    text-transform:uppercase;
+  }
+  
+	.close {
+    color: #fff;
+    float: right;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1;
+
+}
 @media (min-width: 320px) and (max-width: 480px) {
 	#home {
 			display: none;
@@ -2012,3 +2108,5 @@ dl, ol, ul {
 			border-radius: 9px;
  }
 }
+
+
