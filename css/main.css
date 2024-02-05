@@ -399,10 +399,14 @@ h1,h2,h3,h4,h5,h6,P,a,span,body{
 }
 
 /* career */
+@media (min-width: 320px) and (max-width: 480px) {
+	.winning-behaviors.component-callout {
+			padding: 36px 0;
+			color: #fff;
+	}
+	}
 .rest-careers-wrap {
-	margin: 0 auto;
-	text-align: center;
-	padding-top: calc(1.4886731392vw + -5.5825242718px);
+	padding: 28px 27px;
 }
 .rest-careers-wrap .brand-title {
 	margin-bottom: calc(2.071197411vw + 16.2330097087px);
@@ -452,8 +456,8 @@ img {
 	border-radius: 9px;
 }
 .winning-behaviors.component-callout {
-	padding: 54px;
-	color: #fff;
+	padding: 28px 27px;
+    color: #fff;
 }
 .a li{
 }
