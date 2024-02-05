@@ -1803,6 +1803,7 @@ dl, ol, ul {
 	/* margin: 50px 0; */
 	background: url(https://www.pringleapi.com/Documents/aedb69ae-03c6-48a0-9129-195f64248cdb/faq-bg.jpeg);
 	padding: 60px;
+	background-size: cover;
 }
 #faq{
 	box-shadow: 0 20px 20px -10px rgba(95,109,137,.1), 0 5px 20px -5px rgba(95,109,137,.1);
