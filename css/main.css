@@ -1577,6 +1577,12 @@ hr {
 	width: 18%;
 }
 /* concpt design-1 */
+.carousel-control-prev {
+	left: -19px;
+}
+.carousel-control-right {
+	left: -19px;
+}
 #myCarousel .carousel-item .mask {
 	position: absolute;
 	top: 0;
@@ -1643,7 +1649,7 @@ hr {
 #myCarousel {
 	position: relative;
 	z-index: 1;
-	padding: 45px;
+	padding: 20px;
 	margin-bottom: 100px;
 }
 .mask img{
