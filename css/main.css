@@ -1578,10 +1578,10 @@ hr {
 }
 /* concpt design-1 */
 .carousel-control-prev {
-	left: -19px;
+	left: -19px!important;
 }
-.carousel-control-right {
-	left: -19px;
+.carousel-control-next {
+	right: -13px!important;
 }
 #myCarousel .carousel-item .mask {
 	position: absolute;
@@ -1591,14 +1591,14 @@ hr {
 	width: 100%;
 	background-attachment: fixed;
 }
-#myCarousel h4 {
+/* #myCarousel h4 {
 	font-size: 31px;
 	margin-bottom: 15px;
 	color: #151313;
 	line-height: 100%;
 	letter-spacing: 0.5px;
 	font-weight: 600;
-}
+} */
 .order-2 img{
 	box-shadow: none!important;
 	width: 25%;
@@ -1610,14 +1610,14 @@ hr {
 	padding:13px 32px;
 	display:inline-block;
 }
-#myCarousel .carousel-item a:hover{
+/* #myCarousel .carousel-item a:hover{
  background:#394fa2;
 	text-decoration:none;
 }
 #myCarousel .carousel-item h4{
  -webkit-animation-name:fadeInLeft;
 	animation-name:fadeInLeft;
-}
+} */
 #myCarousel .carousel-item p{
  -webkit-animation-name:slideInRight;
 	animation-name:slideInRight;
