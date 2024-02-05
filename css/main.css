@@ -737,7 +737,7 @@ img {
 body {
 	-ms-overflow-style: none;
  /* for Internet Explorer, Edge */
-	scrollbar-width: none;
+	/* scrollbar-width: none; */
  /* for Firefox */
 	overflow-y: scroll;
  /* font-family: 'Futura LT', sans-serif!important;
@@ -768,7 +768,7 @@ body::-webkit-scrollbar {
  }
 	*/
 	.ceo {
-			background: #b0dddf;
+
 			padding: 57px;
 			text-align: center;
  }
@@ -1253,7 +1253,7 @@ hr {
 	margin-bottom: 37px;
 }
 .lightbox-wrapper .lightbox-content .section-heading.page-heading>.animated-bar {
-	background-color: #b0dddf;
+	background-color: #6b6b6b5e;
 	content: "";
 	display: block;
 	height: 4px;
