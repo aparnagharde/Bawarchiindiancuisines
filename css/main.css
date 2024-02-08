@@ -230,7 +230,7 @@ font-weight: bold;
 .we-are-best {
 	background:#6b6b6b;
 	color: #fff;
-	padding: 70px;
+	padding: 37px 25px 30px 25px;
 }
 /* who we are */
 .who-we-are {
@@ -258,6 +258,9 @@ font-weight: bold;
 	border-radius: 9px;
 }
 /* about us page */
+.txt_content{
+	text-align: center!important;
+}
 .since-heading-two {
 	position: absolute;
 	left: 13px;
@@ -491,9 +494,17 @@ h1,h2,h3,h4,h5,h6{
 	max-width: 849px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 100px;
-	margin-bottom: 101px;
+	margin-top: 57px;
+	margin-bottom: 57px;
 	padding-bottom: 12px;
+
+}
+.head{
+	display: flex;
+	background: #272424;
+	justify-content: center;
+	align-content: center;
+	align-items: center;	
 }
 img {
 	border-style: none;
@@ -780,9 +791,10 @@ img {
 }
 .ceo {
 	background: #6b6b6b;
-	padding: 46px;
+	padding: 21px 22px 24px 20px;
 	text-align: center;
 }
+
 body {
 	-ms-overflow-style: none;
  /* for Internet Explorer, Edge */
@@ -838,50 +850,7 @@ body::-webkit-scrollbar {
 	font-size: 29px;
 	margin-bottom: 20px;
 }
-/* .cuisine-bg {
-	background-image: url(https://www.pringleapi.com/Documents/4baf752b-ce76-40d9-8e27-074c9c75cac0/bawarchi-indian-cuisine.webp);
-	background-attachment: fixed;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: right;
-}
-.biryani-bg {
-	background-image: url(https://www.pringleapi.com/Documents/4baf752b-ce76-40d9-8e27-074c9c75cac0/Bawarchi-biryanis.webp);
-	background-attachment: fixed;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: left;
-}
-.express-bg {
-	background-image: url(https://www.pringleapi.com/Documents/4baf752b-ce76-40d9-8e27-074c9c75cac0/galley-5.jpg);
-	background-attachment: fixed;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: right;
-}
-.info-bg {
-	background-image: url(https://www.pringleapi.com/Documents/4baf752b-ce76-40d9-8e27-074c9c75cac0/hot-bread.webp);
-	background-attachment: fixed;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: right;
-}
-.truck-bg {
-	background-image: url(https://www.pringleapi.com/Documents/4baf752b-ce76-40d9-8e27-074c9c75cac0/galley-2.jpg);
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: left;
-}
-.bgimg-2 {
-	background-image: url(https://www.pringleapi.com/Documents/4baf752b-ce76-40d9-8e27-074c9c75cac0/BawarchiDinein.webp);
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: right;
-	min-height: 300px;
-	margin-bottom: 80px;
-} */
+
 .info-img {
 	display: flex;
 }
@@ -1588,9 +1557,15 @@ hr {
 }
 
 /* Franchise */
+.modal-title {
+	line-height: 1.5;
+	margin-bottom: 0;
+	margin-left: auto;
+	color: #fff;
+}
 .join-us {
 	background: #6b6b6b;
-	padding: 46px 27px 77px 24px;
+	padding: 46px 27px 46px 24px;
 }
 .single-service {
 
@@ -1605,7 +1580,7 @@ hr {
 .services-section .single-service .service-title {
 	font-size: 22px;
 	margin-bottom: 0px;
-	padding: 30px;
+	padding: 15px;
 	background:rgb(39 36 36);
 	color: #fff;
 	border-radius: 9px 9px 0 0;
@@ -1922,7 +1897,7 @@ dl, ol, ul {
 	color: #fff;
 	margin: 10px;
 	border: 0;
-	border-radius: 20px;
+	border-radius: 9px;
 	box-sizing: border-box;
 }
 .cities .card .imgBx {
