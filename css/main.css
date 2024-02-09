@@ -1889,6 +1889,11 @@ dl, ol, ul {
 
 
 /* why choose us */
+.cities{
+	background: url(https://www.webdingo.net/precision/images/bg2.jpg);
+	padding: 38px 34px 33px 17px;
+
+}
 .cities .card {
 	position: relative;
 	width: 100%;
