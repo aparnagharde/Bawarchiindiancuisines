@@ -1,35 +1,29 @@
 /* scrollbar */
 /* width */
 ::-webkit-scrollbar {
-  width: 1px;
+	width: 1px;
 }
-
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-  border-radius: 10px;
+	box-shadow: inset 0 0 5px grey;
+	border-radius: 10px;
 }
- 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background:#808080; 
-  border-radius: 10px;
+	background:#808080;
+	border-radius: 10px;
 }
-
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #b30000; 
+	background: #b30000;
 }
 div.scroll {
 	width: 100%;
 	height: 600px;
 	overflow-x: hidden;
 	overflow-y: auto;
-
 }
-
 /* aparna css */
-
 /* why choose */
 #target{
 	text-align: center;
@@ -39,27 +33,21 @@ div.scroll {
 	margin-top: 10px;
 	border-radius: 9px;
 	height: 207px;
-
 }
-
 .modal-dialog {
 	margin: 1.75rem auto;
 	max-width: 1170px;
 	margin-top: 150px;
 }
-
-
 .btn-lg{
 	font-weight: bold;
 	color: #fff;
 }
-
 #myModal {
-  border-radius: 0px;
+	border-radius: 0px;
 }
-
 #myModal .modal-body {
-  min-height: 50vh;
+	min-height: 50vh;
 }
 .modal-body h3{
 	color: #fff;
@@ -80,8 +68,8 @@ div.scroll {
 	width: 100%;
 }
 .modal-header h3{
-color: #fff;
-font-weight: bold;
+	color: #fff;
+	font-weight: bold;
 	margin-left: auto;
 }
 .modal-body {
@@ -92,26 +80,20 @@ font-weight: bold;
 	max-width: 843px;
 	margin: auto;
 }
-
 /* Modal */
-  
-
-  .modal-header{
- 
-    position:relative;
-    background-color:#776F70;
-    color:#FFF;
-    letter-spacing:1px;
-    text-transform:uppercase;
-  }
-  
-	.close {
-    color: #fff;
-    float: right;
-    font-size: 1.5rem;
-    font-weight: bold;
-    line-height: 1;
-
+.modal-header{
+	position:relative;
+	background-color:#776F70;
+	color:#FFF;
+	letter-spacing:1px;
+	text-transform:uppercase;
+}
+.close {
+	color: #fff;
+	float: right;
+	font-size: 1.5rem;
+	font-weight: bold;
+	line-height: 1;
 }
 @media (min-width: 320px) and (max-width: 480px) {
 	#home {
@@ -227,22 +209,16 @@ font-weight: bold;
 	text-align: center;
 	color:#9f9f9f!important;
 }
-
-
 /* here it from the best */
 .we-are-best {
 	background:#6b6b6b;
 	color: #fff;
 	padding: 37px 25px 30px 25px;
 }
-
 .video{
 	box-shadow: 0px 0px 10px 0px rgb(0 0 0);
 	border-radius: 9px;
 }
-
-
-
 /* about us page */
 .info-content {
 	color: #fff;
@@ -258,7 +234,6 @@ font-weight: bold;
 	border: 8px solid grey;
 	color: #fff;
 }
-
 .who-we-are {
 	background: #333;
 	color: #fff;
@@ -275,19 +250,21 @@ font-weight: bold;
 	transform: translateX(-50%) rotate(-90deg);
 	font-size: 55px;
 	-webkit-text-fill-color: transparent;
-	/* -webkit-text-stroke: 2px #9ba7a7; */
+ /* -webkit-text-stroke: 2px #9ba7a7;
+	*/
 	animation: move 5s ease-in-out alternate infinite;
 	text-transform: uppercase;
-  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	font-weight: bold;
 }
 /* .white-box{
 	background: rgb(39 36 36);
 	color: #fff;
 	padding: 65px;
-} */
+}
+*/
 .mission-bg{
 	background: url(https://www.pringleapi.com/Documents/aedb69ae-03c6-48a0-9129-195f64248cdb/mission-bg.jpeg);
 }
@@ -310,37 +287,30 @@ font-weight: bold;
 /* contact page */
 .contact-section{
 	background: #6b6b6b;
-	/* padding: 43px 18px 34px 35px; */
+ /* padding: 43px 18px 34px 35px;
+	*/
 	color: #fff;
 }
 .contact-info a{
 	color: #fff;
-	
-	}
-	.contact-info h4{
-		color: #fff;
-		
-		}
+}
+.contact-info h4{
+	color: #fff;
+}
 .contact-info{
-padding: 50px;
-
+	padding: 50px;
 }
 /* aparna css */
-
 P,a,span,body{
 	font-family: 'Quicksand', sans-serif;
 }
-
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Crimson Text', serif;
-
 }
-
 .info-section{
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
-
 /* why choose us */
 .counter {
 	background-color: #fff;
@@ -414,8 +384,6 @@ h1,h2,h3,h4,h5,h6{
 	font-size: 40px;
 	color: #000;
 }
-
-
 .sticky-navbar {
 	position: fixed;
 	top: 0;
@@ -456,32 +424,29 @@ h1,h2,h3,h4,h5,h6{
 	color: #222;
 	font-weight: 800;
 }
-
 /* career */
 @media (min-width: 320px) and (max-width: 480px) {
 	.winning-behaviors.component-callout {
 			padding: 36px 0;
 			color: #fff;
-	}
+ }
 	.item-circle {
-    margin: auto;
+			margin: auto;
+ }
 }
-	}
-	.win-behaviour-block p{
-		color: #fff;
-	}
-	.item-circle{
-
+.win-behaviour-block p{
+	color: #fff;
+}
+.item-circle{
 	background: url(https://www.pringleapi.com/Documents/aedb69ae-03c6-48a0-9129-195f64248cdb/gold-bg.png);
-    width: 200px;
-    background-size: cover;
-    height: 200px;
-}	
+	width: 200px;
+	background-size: cover;
+	height: 200px;
+}
 .item-circle h5{
 	padding-top: 62px;
 	font-size: 26px;
 	font-weight: bold;
-
 }
 .rest-careers-wrap {
 	padding: 28px 27px;
@@ -527,26 +492,23 @@ h1,h2,h3,h4,h5,h6{
 	margin-top: 57px;
 	margin-bottom: 57px;
 	padding-bottom: 12px;
-
 }
 .head{
 	display: flex;
 	background: #272424;
 	justify-content: center;
 	align-content: center;
-	align-items: center;	
+	align-items: center;
 }
 img {
 	border-style: none;
 	vertical-align: middle;
 	border-radius: 9px;
 }
- .winning-behaviors {
+.winning-behaviors {
 	padding: 28px 27px;
-    color: #fff;
-} 
-
-
+	color: #fff;
+}
 .behaviors-info {
 	margin-top: 40px;
 	position: relative;
@@ -803,11 +765,11 @@ img {
 	padding: 21px 22px 24px 20px;
 	text-align: center;
 }
-
 body {
 	-ms-overflow-style: none;
  /* for Internet Explorer, Edge */
-	/* scrollbar-width: none; */
+ /* scrollbar-width: none;
+	*/
  /* for Firefox */
 	overflow-y: scroll;
  /* font-family: 'Futura LT', sans-serif!important;
@@ -838,7 +800,6 @@ body::-webkit-scrollbar {
  }
 	*/
 	.ceo {
-
 			padding: 57px;
 			text-align: center;
  }
@@ -859,7 +820,6 @@ body::-webkit-scrollbar {
 	font-size: 32px;
 	margin-bottom: 20px;
 }
-
 .info-img {
 	display: flex;
 }
@@ -1331,7 +1291,6 @@ hr {
 			transform: translateX(75px);
  }
 }
-
 @-webkit-keyframes grow {
 	0%, 100%, 40% {
 			-webkit-transform: scale(0);
@@ -1564,7 +1523,6 @@ hr {
 			font-size: 26px;
  }
 }
-
 /* Franchise */
 .modal-title {
 	line-height: 1.5;
@@ -1577,15 +1535,12 @@ hr {
 	padding: 46px 27px 46px 24px;
 }
 .single-service {
-
 	background-color: #323232;
 	height: 345px;
 	border-radius: 9px;
 	text-align: center;
 	box-shadow: 0 0 8px #323232;
 }
-
-
 .services-section .single-service .service-title {
 	font-size: 22px;
 	margin-bottom: 0px;
@@ -1604,7 +1559,6 @@ hr {
 	border-radius: 0 0 9px 9px;
 	color: #fff;
 }
-
 .content img{
 	width: 18%;
 }
@@ -1624,53 +1578,54 @@ hr {
 	background-attachment: fixed;
 }
 #myCarousel h3 {
-color:#fff;
-} 
+	color:#fff;
+}
 .order-2 img{
 	box-shadow: none!important;
 	width: 25%;
 }
 #myCarousel .carousel-item a{
- background:#6b6b6b;
+	background:#6b6b6b;
 	font-size:14px;
 	color:#FFF;
 	padding:13px 32px;
 	display:inline-block;
 }
 /* #myCarousel .carousel-item a:hover{
- background:#394fa2;
+	background:#394fa2;
 	text-decoration:none;
 }
 #myCarousel .carousel-item h4{
- -webkit-animation-name:fadeInLeft;
+	-webkit-animation-name:fadeInLeft;
 	animation-name:fadeInLeft;
-} */
+}
+*/
 #myCarousel .carousel-item p{
- -webkit-animation-name:slideInRight;
+	-webkit-animation-name:slideInRight;
 	animation-name:slideInRight;
 	color: #fff;
 }
 #myCarousel .carousel-item a{
- -webkit-animation-name:fadeInUp;
+	-webkit-animation-name:fadeInUp;
 	animation-name:fadeInUp;
 }
 #myCarousel .carousel-item .mask img{
- -webkit-animation-name:slideInRight;
+	-webkit-animation-name:slideInRight;
 	animation-name:slideInRight;
 	display:block;
 }
 #myCarousel h4, #myCarousel p, #myCarousel a, #myCarousel .carousel-item .mask img{
- -webkit-animation-duration: 1s;
+	-webkit-animation-duration: 1s;
 	animation-duration: 1.2s;
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
 	border-radius: 9px;
 }
 #myCarousel .container {
- max-width: 1430px;
+	max-width: 1430px;
 }
 #myCarousel .carousel-item{
- height:100%;
+	height:100%;
 	min-height:550px;
 }
 #myCarousel {
@@ -1680,7 +1635,7 @@ color:#fff;
 	margin-bottom: 100px;
 }
 .mask img{
- box-shadow: 0px 0px 10px 0px rgb(0 0 0);
+	box-shadow: 0px 0px 10px 0px rgb(0 0 0);
 	width: 100%;
 	border-radius: 9px;
 }
@@ -1833,16 +1788,18 @@ dl, ol, ul {
 }
 /* faqs */
 #main {
-	/* margin: 50px 0; */
+ /* margin: 50px 0;
+	*/
 	background: url(https://www.pringleapi.com/Documents/aedb69ae-03c6-48a0-9129-195f64248cdb/faq-bg.jpeg);
 	padding: 30px;
 	background-size: cover;
 }
 #faq{
 	box-shadow: 0 20px 20px -10px rgba(95,109,137,.1), 0 5px 20px -5px rgba(95,109,137,.1);
-	/* max-width: 900px;
-	margin: auto;*/
-} 
+ /* max-width: 900px;
+	margin: auto;
+ */
+}
 #main #faq .card {
 	border: 1px solid #ccc;
 }
@@ -1890,18 +1847,15 @@ dl, ol, ul {
 @media (min-width: 320px) and (max-width: 480px) {
 	#main {
 			padding: 0!important;
-	}
+ }
 	.contact-info {
-    padding: 21px;
+			padding: 21px;
+ }
 }
-	}
-
-
 /* why choose us */
 .cities{
 	background: url(https://www.webdingo.net/precision/images/bg2.jpg);
 	padding: 38px 34px 33px 17px;
-
 }
 .cities .card {
 	width: 100%;
@@ -1923,7 +1877,8 @@ dl, ol, ul {
 	position: absolute;
 	top: 0;
 	left: 0;
-	/* width: 100%; */
+ /* width: 100%;
+	*/
 	height: 100%;
 	padding: 20px;
 }
@@ -1941,10 +1896,10 @@ dl, ol, ul {
 	color:#fff;
 	font-size: 22px;
 }
- .content a{
+.content a{
 	color:#fff;
 }
- .content a:hover {
+.content a:hover {
 	color: #999;
 }
 /* @media (max-width: 991px) {
@@ -1952,7 +1907,8 @@ dl, ol, ul {
 			width: calc(70% - 20px);
 			margin: 10px auto;
  }
-} */
+}
+*/
 /* @media (max-width: 768px) {
 	.cities .card {
 			width: calc(70% - 20px);
@@ -1969,7 +1925,8 @@ dl, ol, ul {
 			width: 100%;
 			height: 100%;
  }
-} */
+}
+*/
 @media (max-width: 480px) {
 	.cities .card {
 			width: calc(100% - 0px);
@@ -1985,7 +1942,6 @@ dl, ol, ul {
 	color: #fff;
 }
 /* aparna-footer */
-
 .footer h4 {
 	color: #fff;
 }
@@ -1995,7 +1951,8 @@ dl, ol, ul {
 .ContactUs {
 	display: flex;
 	background:#323232;
-	/* margin-top: 50px; */
+ /* margin-top: 50px;
+	*/
 }
 .ContactUs p {
 	color:#9f9f9f!important;
@@ -2079,7 +2036,7 @@ dl, ol, ul {
 }
 .h2,h2 {
 	font-size: 18px;
- / letter-spacing: 5px;
+	/ letter-spacing: 5px;
 	font-weight: 600;
 }
 .section-heading h2{
