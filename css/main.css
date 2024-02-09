@@ -30,6 +30,7 @@ div.scroll {
 
 /* aparna css */
 
+/* why choose */
 #target{
 	text-align: center;
 	background: url(https://www.pringleapi.com/Documents/aedb69ae-03c6-48a0-9129-195f64248cdb/feature-bg.jpg);
@@ -52,7 +53,6 @@ div.scroll {
 	font-weight: bold;
 	color: #fff;
 }
-
 
 #myModal {
   border-radius: 0px;
@@ -227,17 +227,24 @@ font-weight: bold;
 	text-align: center;
 	color:#9f9f9f!important;
 }
+
+
 /* here it from the best */
 .we-are-best {
 	background:#6b6b6b;
 	color: #fff;
 	padding: 37px 25px 30px 25px;
 }
-/* who we are */
-.who-we-are {
-	background: #333;
- /* padding: 73px 56px;
-	*/
+
+.video{
+	box-shadow: 0px 0px 10px 0px rgb(0 0 0);
+	border-radius: 9px;
+}
+
+
+
+/* about us page */
+.info-content {
 	color: #fff;
 }
 .yoe-two {
@@ -251,14 +258,11 @@ font-weight: bold;
 	border: 8px solid grey;
 	color: #fff;
 }
-.info-content {
+
+.who-we-are {
+	background: #333;
 	color: #fff;
 }
-.video{
-	box-shadow: 0px 0px 10px 0px rgb(0 0 0);
-	border-radius: 9px;
-}
-/* about us page */
 .txt_content{
 	text-align: center!important;
 }
@@ -271,14 +275,19 @@ font-weight: bold;
 	transform: translateX(-50%) rotate(-90deg);
 	font-size: 55px;
 	-webkit-text-fill-color: transparent;
-	-webkit-text-stroke: 2px #9ba7a7;
+	/* -webkit-text-stroke: 2px #9ba7a7; */
 	animation: move 5s ease-in-out alternate infinite;
+	text-transform: uppercase;
+  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-weight: bold;
 }
-.white-box{
+/* .white-box{
 	background: rgb(39 36 36);
 	color: #fff;
 	padding: 65px;
-}
+} */
 .mission-bg{
 	background: url(https://www.pringleapi.com/Documents/aedb69ae-03c6-48a0-9129-195f64248cdb/mission-bg.jpeg);
 }
@@ -1986,7 +1995,7 @@ dl, ol, ul {
 .ContactUs {
 	display: flex;
 	background:#323232;
-	margin-top: 50px;
+	/* margin-top: 50px; */
 }
 .ContactUs p {
 	color:#9f9f9f!important;
