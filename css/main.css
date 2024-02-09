@@ -1893,7 +1893,7 @@ dl, ol, ul {
 	position: relative;
 	width: 100%;
 	min-height: 104px;
-	background:#6b6b6b;
+	background:#000;
 	color: #fff;
 	margin: 10px;
 	border: 0;
@@ -1902,8 +1902,10 @@ dl, ol, ul {
 }
 .cities .card .imgBx {
 	position: absolute;
-	width: 40%;
 	height: 100%;
+	text-align: center;
+	padding: 12px;
+	width: 30%;
 }
 .cities .card .imgBx img {
 	position: absolute;
@@ -1913,16 +1915,17 @@ dl, ol, ul {
 	height: 100%;
 	object-fit: initial;
 	border-radius: 20px 60px 0px 20px;
+	padding: 20px;
 }
 .cities .card .details {
 	position: absolute;
 	right: 0;
-	width: 60%;
+	width: 70%;
 	height: 100%;
 	box-sizing: border-box;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	/* justify-content: center;
+	align-items: center; */
 }
 .cities .card .details .content {
 	padding: 20px;
