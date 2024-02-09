@@ -1895,7 +1895,6 @@ dl, ol, ul {
 
 }
 .cities .card {
-	position: relative;
 	width: 100%;
 	min-height: 104px;
 	background:#000;
@@ -1903,7 +1902,6 @@ dl, ol, ul {
 	margin: 10px;
 	border: 0;
 	border-radius: 9px;
-	box-sizing: border-box;
 }
 .cities .card .imgBx {
 	position: absolute;
@@ -1916,10 +1914,8 @@ dl, ol, ul {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
+	/* width: 100%; */
 	height: 100%;
-	object-fit: initial;
-	border-radius: 20px 60px 0px 20px;
 	padding: 20px;
 }
 .cities .card .details {
@@ -1927,32 +1923,28 @@ dl, ol, ul {
 	right: 0;
 	width: 70%;
 	height: 100%;
-	box-sizing: border-box;
 	display: flex;
-	/* justify-content: center;
-	align-items: center; */
 }
 .cities .card .details .content {
 	padding: 20px;
-	box-sizing: border-box;
 }
 .content h2{
 	color:#fff;
+	font-size: 22px;
 }
-.cities .card .details .content a {
-	color: #fff;
+ .content a{
+	color:#fff;
 }
-.cities .card .details .content a:hover {
-	background: #161618;
-	color: rgb(255 255 255);
+ .content a:hover {
+	color: #999;
 }
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
 	.cities .card {
 			width: calc(70% - 20px);
 			margin: 10px auto;
  }
-}
-@media (max-width: 768px) {
+} */
+/* @media (max-width: 768px) {
 	.cities .card {
 			width: calc(70% - 20px);
 			margin: 10px auto;
@@ -1968,7 +1960,7 @@ dl, ol, ul {
 			width: 100%;
 			height: 100%;
  }
-}
+} */
 @media (max-width: 480px) {
 	.cities .card {
 			width: calc(100% - 0px);
