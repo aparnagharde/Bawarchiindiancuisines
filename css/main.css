@@ -83,18 +83,23 @@ div.scroll {
 	.home-area {
 			height: 600px!important;
  }
-	.since-heading-two {
-			position: absolute;
-			left: 13px;
-			transform: rotatez(90);
-			transform: rotate(-90deg);
-			top: 35%;
-			transform: translateX(-50%) rotate(-90deg);
-			font-size: 43px;
-			-webkit-text-fill-color: transparent;
-			-webkit-text-stroke: 2px #9ba7a7;
-			animation: move 5s ease-in-out alternate infinite;
- }
+ .since-heading-two {
+	position: absolute;
+	left: 13px;
+	transform: rotatez(90);
+	transform: rotate(-90deg);
+	top: 35%;
+	transform: translateX(-50%) rotate(-90deg);
+	font-size: 45px;
+	-webkit-text-fill-color: transparent;
+	/* -webkit-text-stroke: 2px #9ba7a7; */
+	animation: move 5s ease-in-out alternate infinite;
+	text-transform: uppercase;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	/* -webkit-text-fill-color: transparent; */
+	font-weight: bold;
+}
 	.we-are-best {
 			background:#6b6b6b;
 			color: #fff;
@@ -281,7 +286,7 @@ P,a,span,body{
 	font-family: 'Quicksand', sans-serif;
 }
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Crimson Text', serif;
+	font-family: "Roboto Condensed", sans-serif;
 }
 .info-section{
 	margin-top: 100px;
@@ -788,8 +793,10 @@ body::-webkit-scrollbar {
 }
 .heading {
 	color: #fff;
-	font-size: 32px;
+	font-size: 29px;
 	margin-bottom: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
 }
 .info-img {
 	display: flex;
