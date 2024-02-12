@@ -43,40 +43,18 @@ div.scroll {
 	font-weight: bold;
 	color: #fff;
 }
-#myModal {
-	border-radius: 0px;
-}
-#myModal .modal-body {
-	min-height: 50vh;
-}
-.modal-body h3{
-	color: #fff;
-}
+
 .modal-content {
-	-ms-flex-direction: column;
-	background-clip: padding-box;
-	background-color:#323232e3;
+	background-color: #323232e3;
 	border: 1px solid rgba(0, 0, 0, 0.2);
-	border-radius: 0.3rem;
-	display: -ms-flexbox;
-	display: flex;
-	flex-direction: column;
-	outline: 0;
-	pointer-events: auto;
-	position: relative;
 	color: #fff;
-	width: 100%;
+
 }
 .modal-header h3{
 	color: #fff;
-	font-weight: bold;
 	margin-left: auto;
 }
 .modal-body {
-	-ms-flex: 1 1 auto;
-	flex: 1 1 auto;
-	padding: 1rem;
-	position: relative;
 	max-width: 843px;
 	margin: auto;
 }
@@ -135,9 +113,7 @@ div.scroll {
 .padding{
 	padding-bottom: 50px;
 }
-.bg-dark{
-	background: #333;
-}
+
 /* welcome */
 .welcome-content{
 	background: #fff;
@@ -326,12 +302,7 @@ h1,h2,h3,h4,h5,h6{
 	text-align: center;
 }
 /* why choose us end */
-.hero-bg {
-	position: relative;
-}
-.hero-bg p {
-	padding-left: 40px;
-}
+
 .pattern-img {
 	position: absolute;
 	right: 4%;
@@ -1409,11 +1380,11 @@ hr {
 .home-area:before {
 	background-color: rgba(0, 0, 0, 0.4);
 }
-.home-area .fixed-wrapper {
+/* .home-area .fixed-wrapper {
 	margin: 0 50px;
 	position: relative;
-}
-.home-area .fixed-wrapper .fixed-block {
+} */
+/* .home-area .fixed-wrapper .fixed-block {
 	bottom: 34px;
 	position: absolute;
 }
@@ -1522,7 +1493,7 @@ hr {
 	.home-area .home-headline {
 			font-size: 26px;
  }
-}
+} */
 /* Franchise */
 .modal-title {
 	line-height: 1.5;
@@ -1559,9 +1530,14 @@ hr {
 	border-radius: 0 0 9px 9px;
 	color: #fff;
 }
-.content img{
+@media (min-width: 320px) and (max-width: 480px) {
+	.content-part img{
+	width:100%;
+	}
+	}
+/* .content img{
 	width: 18%;
-}
+} */
 /* concpt design-1 */
 .carousel-control-prev {
 	left: -19px!important;
@@ -1591,24 +1567,13 @@ hr {
 	padding:13px 32px;
 	display:inline-block;
 }
-/* #myCarousel .carousel-item a:hover{
-	background:#394fa2;
-	text-decoration:none;
-}
-#myCarousel .carousel-item h4{
-	-webkit-animation-name:fadeInLeft;
-	animation-name:fadeInLeft;
-}
-*/
+
 #myCarousel .carousel-item p{
 	-webkit-animation-name:slideInRight;
 	animation-name:slideInRight;
 	color: #fff;
 }
-#myCarousel .carousel-item a{
-	-webkit-animation-name:fadeInUp;
-	animation-name:fadeInUp;
-}
+
 #myCarousel .carousel-item .mask img{
 	-webkit-animation-name:slideInRight;
 	animation-name:slideInRight;
@@ -1769,11 +1734,11 @@ hr {
 			transform: translate3d(0, 0, 0);
  }
 }
-.slideInRight {
+/* .slideInRight {
 	-webkit-animation-name: slideInRight;
 	animation-name: slideInRight;
-}
-/* brand */
+} */
+
 /* contact */
 dl, ol, ul {
 	margin-bottom: 1rem;
@@ -1819,23 +1784,20 @@ dl, ol, ul {
 	color: #fff;
 	padding: 20px;
 }
-#main #faq .card .card-header .btn-header-link:after {
+/* #main #faq .card .card-header .btn-header-link:after {
 	content: "\f107";
 	font-family: 'Font Awesome 5 Free';
 	font-weight: 900;
 	float: right;
-}
+} */
 #main #faq .card .card-header .btn-header-link.collapsed {
 	background: rgb(39 36 36);
 	color: #fff;
 }
-#main #faq .card .card-header .btn-header-link.collapsed:after {
+/* #main #faq .card .card-header .btn-header-link.collapsed:after {
 	content: "\f106";
-}
-#main #faq .card .collapsing {
-	background: #fff;
-	line-height: 30px;
-}
+} */
+
 #main #faq .card .collapse {
 	border: 0;
 }
@@ -1844,14 +1806,7 @@ dl, ol, ul {
 	line-height: 30px;
 	color: #fff;
 }
-@media (min-width: 320px) and (max-width: 480px) {
-	#main {
-			padding: 0!important;
- }
-	.contact-info {
-			padding: 21px;
- }
-}
+
 /* why choose us */
 .cities{
 	background: url(https://www.webdingo.net/precision/images/bg2.jpg);
@@ -1902,41 +1857,15 @@ dl, ol, ul {
 .content a:hover {
 	color: #999;
 }
-/* @media (max-width: 991px) {
-	.cities .card {
-			width: calc(70% - 20px);
-			margin: 10px auto;
- }
-}
-*/
-/* @media (max-width: 768px) {
-	.cities .card {
-			width: calc(70% - 20px);
-			margin: 10px auto;
- }
-	.cities .card .imgBx {
-			position: relative;
-			width: 100%;
-			height: 200px;
-			border-radius: 20px !important;
- }
-	.cities .card .details {
-			position: relative;
-			width: 100%;
-			height: 100%;
- }
-}
-*/
+
+
 @media (max-width: 480px) {
-	.cities .card {
-			width: calc(100% - 0px);
-			margin: 10px auto;
-			border-radius: 20px;
- }
-	.cities .card .imgBx img {
-			border-radius: 20px !important;
- }
+.content h2 {
+	color: #fff;
+	font-size: 18px;
 }
+}
+
 .a ul{
 	list-style: disc;
 	color: #fff;
@@ -2026,11 +1955,7 @@ dl, ol, ul {
 .our-values p{
 	color: #fff;
 }
-/* .about,.why-choose-us,.who-we-are,.mid{
-	margin-top: 100px;
-	margin-bottom: 100px;
-}
-*/
+
 .bg-grey{
 	background: #6b6b6b;
 }
@@ -2059,11 +1984,11 @@ dl, ol, ul {
 	width: 100%;
 	height: 50px;
 }
-.form-control:disabled, .form-control[readonly] {
+/* .form-control:disabled, .form-control[readonly] {
 	background-color:#161618;
 	opacity: 1;
-}
-@media (min-width: 320px) and (max-width: 480px) {
+} */
+/* @media (min-width: 320px) and (max-width: 480px) {
 	.popover__content {
 			opacity: 0;
 			visibility: hidden;
@@ -2077,4 +2002,4 @@ dl, ol, ul {
 			margin-top: -100px;
 			border-radius: 9px;
  }
-}
+} */
