@@ -419,10 +419,10 @@ h1,h2,h3,h4,h5,h6{
 	background-size: cover;
 	height: 200px;
 }
-.item-circle h5{
-	padding-top: 62px;
-	font-size: 26px;
-	font-weight: bold;
+.item-circle h5 {
+    padding-top: 71px;
+    font-size: 21px;
+    font-weight: bold;
 }
 .rest-careers-wrap {
 	padding: 28px 27px;
