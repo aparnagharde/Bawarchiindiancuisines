@@ -341,11 +341,11 @@ h1,h2,h3,h4,h5,h6{
 	text-align: center;
 	padding: 15px;
 	position: absolute;
-	right: 147px;
+	/* right: 147px; */
 	background: black;
-	top: 52px;
+	top: 118px;
 	max-width: 150px;
-	border-left: 7px solid white;
+	border-right: 7px solid white;
 	border-bottom: 7px solid white;
 	color: rgb(255, 255, 255);
 }
@@ -419,10 +419,10 @@ h1,h2,h3,h4,h5,h6{
 	background-size: cover;
 	height: 200px;
 }
-.item-circle h5 {
-    padding-top: 71px;
-    font-size: 21px;
-    font-weight: bold;
+.item-circle h5{
+	padding-top: 62px;
+	font-size: 26px;
+	font-weight: bold;
 }
 .rest-careers-wrap {
 	padding: 28px 27px;
@@ -1762,7 +1762,7 @@ dl, ol, ul {
  /* margin: 50px 0;
 	*/
 	background: url(https://www.pringleapi.com/Documents/aedb69ae-03c6-48a0-9129-195f64248cdb/faq-bg.jpeg);
-	padding: 30px;
+	padding: 10px 20px 66px 20px;
 	background-size: cover;
 }
 #faq{
