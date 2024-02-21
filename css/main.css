@@ -148,17 +148,17 @@ div.scroll {
 }
 @media (min-width: 320px) and (max-width: 480px) {
 	.yoe {
-			text-align: center;
-			padding: 15px;
-			position: absolute;
-			right: 94px;
-			background: black;
-			top: 48px;
-			max-width: 95px;
-			border-left: 6px solid white;
-			border-bottom: 6px solid white;
-			color: #fff;
- }
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    right: 220px;
+    background: black;
+    top: 48px;
+    border-left: 6px solid white;
+    border-bottom: 6px solid white;
+    color: #fff;
+    width: 92px;
+}
 }
 /* why-choose-us */
 .popover__wrapper {
