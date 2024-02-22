@@ -146,12 +146,12 @@ div.scroll {
 .welcome-content h2{
 	color: #000;
 }
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 932px) {
 	.yoe {
     text-align: center;
     padding: 15px;
     position: absolute;
-    right: 220px;
+    right: 192px;
     background: black;
     top: 48px;
     border-left: 6px solid white;
